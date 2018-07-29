@@ -8,12 +8,9 @@
 		width: 100%;
 		height: 100%
 		position: fixed;
+		float: left;
 	}	
-	
-	.body{
-		background: linear-gradient(white, lightblue); 
-		border: 100%;
-	}
+
 
 
 	a{
@@ -33,17 +30,25 @@
 	.caixinha{
 	
     	position: relative;
-		border-radius: .25rem;
-		width: 30%;
+		width: 20px%;
+    	height: 250px;
     	float: left;
-    	margin: 1% 2% 1% 1%;
+    	margin: 8% 2% 1% 1%;
     	text-align: center;
     	border: 1px gray rgba(0,0,0,.125);
     	box-shadow: 1px 1px 1px 1px grey;
-    	width: 50%;
+    	width: 45%;
     	padding: 1% 1% 1% 1%;
     	vertical-align: middle;
    		border-style: none;
+
+	}
+	.t{	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    	font-size: 1.25rem;
+    	font-weight: 400;
+    	line-height: 1.5;
+    	color: #212529;
+    	text-align: center;
 
 	}
 
@@ -54,19 +59,34 @@
     	line-height: 1.5;
     	color: #212529;
     	text-align: left;
+	
 	}
 	.imag{
-		width: 50%;
+		width: 30%;
     	float: left;
     	margin: 2%;
 		vertical-align: middle;
     	border-style: none;
 	}
-
+	.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:rgb(51, 0, 51);
+   color: white;
+   text-align: center;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+}
+	#grad1 {
+    background: white; 
+    background: linear-gradient(white, lightblue);
 
 </style>
 </head>
-<body>
+<body id="grad1">
 	<div class="principal">
 		<div>
 			<img src="logo ca.png" width="195px" height="69px">
@@ -77,28 +97,35 @@
 		</div>
 	<div class="body">
 	<div class="caixinha">
-		<h1 class="letrinha">Serviço 1</h1>
+		<h1 class="t">Serviço 1</h1>
 		<img class="imag"src="s1.jpg">
+		<p class="letrinha">Do reprehenderit laboris ut ullamco aliquip cupidatat pariatur deserunt ullamco et ut officia duis excepteur. Officia veniam enim excepteur magna quis fugiat sint ut occaecat irure excepteur dolore ullamco enim cillum eiusmod ut proident aliqua reprehenderit ut sed.</p>
 	</div>
 	<div class="caixinha">
-		<h1 class="letrinha">Serviço 2</h1>
+		<h1 class="t">Serviço 2</h1>
 		<img class="imag"src="s1.jpg">
+		<p class="letrinha">Do reprehenderit laboris ut ullamco aliquip cupidatat pariatur deserunt ullamco et ut officia duis excepteur. Officia veniam enim excepteur magna quis fugiat sint ut occaecat irure excepteur dolore ullamco enim cillum eiusmod ut proident aliqua reprehenderit ut sed.</p>
+
 	</div>
 	<div class="caixinha">
-		<h1 class="letrinha">Serviço 3</h1>
+		<h1 class="t">Serviço 3</h1>
 		<img class="imag"src="s1.jpg">
+		<p class="letrinha">Do reprehenderit laboris ut ullamco aliquip cupidatat pariatur deserunt ullamco et ut officia duis excepteur. Officia veniam enim excepteur magna quis fugiat sint ut occaecat irure excepteur dolore ullamco enim cillum eiusmod ut proident aliqua reprehenderit ut sed.</p>
 	</div>
 	<div class="caixinha">
-		<h1 class="letrinha">Serviço 4</h1>
+		<h1 class="t">Serviço 4</h1>
 		<img class="imag"src="s1.jpg">
+		<p class="letrinha">Do reprehenderit laboris ut ullamco aliquip cupidatat pariatur deserunt ullamco et ut officia duis excepteur. Officia veniam enim excepteur magna quis fugiat sint ut occaecat irure excepteur dolore ullamco enim cillum eiusmod ut proident aliqua reprehenderit ut sed.</p>
 	</div>
 	<div class="caixinha">
-		<h1 class="letrinha">Serviço 5</h1>
+		<h1 class="t">Serviço 5</h1>
 		<img class="imag"src="s1.jpg">
+		<p class="letrinha">Do reprehenderit laboris ut ullamco aliquip cupidatat pariatur deserunt ullamco et ut officia duis excepteur. Officia veniam enim excepteur magna quis fugiat sint ut occaecat irure excepteur dolore ullamco enim cillum eiusmod ut proident aliqua reprehenderit ut sed.</p>
 	</div>
 	<div class="caixinha">
-		<h1 class="letrinha">Serviço 6</h1>
+		<h1 class="t">Serviço 6</h1>
 		<img class="imag"src="s1.jpg">
+		<p class="letrinha">Do reprehenderit laboris ut ullamco aliquip cupidatat pariatur deserunt ullamco et ut officia duis excepteur. Officia veniam enim excepteur magna quis fugiat sint ut occaecat irure excepteur dolore ullamco enim cillum eiusmod ut proident aliqua reprehenderit ut sed.</p>
 	</div>
 
 
@@ -106,7 +133,10 @@
 
 
 	</div>
+	<div class="footer">
+  	<p>@Copyright Company Name</p>
 	</div>
+	<div>
 
 
 </body>
